@@ -1,0 +1,115 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 70s linear infinite
+}
+
+@keyframes animatedBackground{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:100% 0
+    }
+}
+#style-switcher{
+    top: 24%;
+}
+@media (max-width:592px){
+    #style-switcher{
+        top: 19%;
+    }
+}
+.therow{
+    margin-top: 55px;
+}
+@media screen and (max-width: 906px) {
+    .therow{
+        margin-top: 78px;
+    }
+}
+
+#paid{
+    padding: 10px;
+}
+
+#paid div{
+    overflow-y: hidden !important;
+}
+#paid .section-heading h4 {
+    color: #121d33;
+    font-size: 32px !important;
+}
+.butn.home-btn{
+    margin-top: 7vh;
+    color: #121d33 !important;
+    font-size: 24px;
+}
+
+#paid-text {
+    color: rgba(18, 29, 51, 0.92) !important;
+    font-size: 17.5px !important;
+    line-height: 30px !important;
+}
+#paid-text  span {
+    font-weight: 700 !important;
+    color: #121d33 !important;
+}
+.butn.home-btn img {
+    width: 27px;
+    border-radius: 0;
+}
+
+.paid-cart{
+    background: rgba(255, 255, 255, 0.92) !important;
+    padding: 23px 10px;
+    width: 100% !important;
+}
+#you-sent {
+    font-weight: 700;
+}
+#predat {
+    display: none;
+    padding: 3px;
+    height: 100vh;
+}
+#predat div {
+    overflow-y: hidden !important;
+}
+#predat .section-heading h4 {
+    color: #121d33 !important;
+}
+#apart {
+    display: none;
+    padding: 3px;
+    height: 100vh;
+    margin: 0 -7px !important;
+}
+#apart div {
+    overflow-y: hidden !important;
+}
+#apart .section-heading h4 {
+    color: #121d33;
+}
+#exampleModal .modal-dialog {
+    top: 7vh !important;
+}
+#anon-check {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 17vh !important;
+    }
+}
+
+#down-file {
+    text-transform: uppercase !important;
+}
+
+.empty-cart {
+    padding: 49px 14px;
+    margin-top: 23vh !important;
+}
